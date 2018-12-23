@@ -6,14 +6,19 @@
   padding:20px;
 } */
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 .wpcf7-form {
+  font-family: 'Roboto', sans-serif;
   border-radius: 4px;
   border: 1px rgb(221, 221, 221) solid;
   background-color: rgb(255, 255, 255);
@@ -28,6 +33,7 @@ html {
 .wpcf7 input[type="select"],
 .wpcf7 input[type="tel"],
 .wpcf7 textarea {
+  font-family: 'Roboto', sans-serif;
   display: block;
   width: 100%;
   color: rgb(73, 80, 87);
