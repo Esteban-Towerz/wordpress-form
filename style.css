@@ -59,6 +59,12 @@ h1 {
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
   background-clip: padding-box;
   text-transform: none;
+  background-position: right 50%;
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFW…zTk0D/M+KzkRGPoQSdykiKJrBGpOhgJFYTWNEIiEeAAAMAzNENEOH+do8AAAAASUVORK5CYII=);
+  padding-right: 1.5em;
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 wpcf7-select-parent .wpcf7-form {
