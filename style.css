@@ -54,6 +54,11 @@ h1 {
   color: rgb(73, 80, 87);
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(206, 212, 218);
+  display: block;
+  width: 100%;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  background-clip: padding-box;
+  text-transform: none;
 }
 
 wpcf7-select-parent .wpcf7-form {
@@ -139,7 +144,7 @@ wpcf7-select-parent .wpcf7-form {
   border-width: 1px !important;
   vertical-align: middle !important;
   overflow: hidden !important;
-  padding: 1.2em 2em !important;
+  padding: 1em 2em !important;
   margin-top: 2em !important;
   border-radius: .25rem !important;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out !important;
