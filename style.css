@@ -18,14 +18,14 @@ html {
 }
 
 .wpcf7-form {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif;
   border-radius: 4px;
   border: 1px rgb(221, 221, 221) solid;
   background-color: rgb(255, 255, 255);
   line-height: 19px;
   color: rgb(17, 17, 17);
   padding: 20px 26px;
-  transition: all 100ms linear;
+  transition: all 100ms linear; */
 }
 
 .wpcf7 input[type="text"],
