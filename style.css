@@ -6,14 +6,21 @@
   padding:20px;
 } */
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
+
 .wpcf7-form {
-    border-radius: 4px;
+  border-radius: 4px;
   border: 1px rgb(221, 221, 221) solid;
   background-color: rgb(255, 255, 255);
-    line-height: 19px;
-    color: rgb(17, 17, 17);
-    padding: 20px 26px;
-    transition: all 100ms linear;
+  line-height: 19px;
+  color: rgb(17, 17, 17);
+  padding: 20px 26px;
+  transition: all 100ms linear;
 }
 
 .wpcf7 input[type="text"],
@@ -21,59 +28,55 @@
 .wpcf7 input[type="select"],
 .wpcf7 input[type="tel"],
 .wpcf7 textarea {
-    display: block;
+  display: block;
   width: 100%;
-    color: rgb(73, 80, 87);
+  color: rgb(73, 80, 87);
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(206, 212, 218);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: rgb(73, 80, 87);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-      text-rendering: optimizeLegibility;
-      box-sizing: border-box;
-      margin-bottom: 1rem;
-      text-align: left;
-      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin-bottom: 1rem;
+  text-align: left;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 #special-field {
-      color: rgb(12, 84, 96) !important;
-      background-color: rgb(209, 236, 241) !important;
-      border-color: rgb(190, 229, 235) !important;
-      font-size: .725rem !important;
-      position: relative !important;
-      padding: 1.2em 2em !important;
+  color: rgb(12, 84, 96) !important;
+  background-color: rgb(209, 236, 241) !important;
+  border-color: rgb(190, 229, 235) !important;
+  font-size: .725rem !important;
+  position: relative !important;
+  padding: 1.2em 2em !important;
 }
 
 #special {
-      margin-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 .wpcf7 textarea:focus,
 .wpcf7 input:focus {
-      color: rgb(73, 80, 87) !important;
-    background-color: rgb(255, 255, 255)  !important;
-    border-color: rgb(185, 208, 248) !important;
-    outline: 0 !important;
-      box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25) !important;
+  color: rgb(73, 80, 87) !important;
+  background-color: rgb(255, 255, 255)  !important;
+  border-color: rgb(185, 208, 248) !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25) !important;
 }
 
 .wpcf7 input[type="submit"],
 .wpcf7 input[type="button"] {
-    color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
   background-color: rgb(2, 184, 117) !important;
   border-color: rgb(2, 184, 117) !important;
-    font-size: 1.5rem !important;
-    font-weight: bold !important;
-    width: 100% !important;
-    line-height: 29px !important;
-    cursor: pointer !important;
-    text-decoration: none !important;
-    margin-top: .75rem !important;
-    display: inline-block !important;;
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  width: 100% !important;
+  line-height: 29px !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  margin-top: .75rem !important;
+  display: inline-block !important;
   text-align: center !important;
   vertical-align: middle !important;
   user-select: none !important;
@@ -82,31 +85,32 @@
   border-width: 1px !important;
   vertical-align: middle !important;
   overflow: hidden !important;
-  padding: 1.2em 2em !important;     margin-top: 2em !important;
-     border-radius: .25rem !important;
-     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out !important;
+  padding: 1.2em 2em !important;
+  margin-top: 2em !important;
+  border-radius: .25rem !important;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out !important;
 }
 
 .wpcf7 input[type="submit"]:hover,
 .wpcf7 input[type="button"]:hover {
-    color: rgb(255, 255, 255) !important;
-    background-color: rgb(2, 146, 93) !important;
-    border-color: rgb(1, 134, 85) !important;  
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(2, 146, 93) !important;
+  border-color: rgb(1, 134, 85) !important;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
-color: rgb(206, 212, 218) !important;
-opacity: 1;
+  color: rgb(206, 212, 218) !important;
+  opacity: 1;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-color: rgb(206, 212, 218) !important;
-opacity: 1;
+  color: rgb(206, 212, 218) !important;
+  opacity: 1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-color: rgb(206, 212, 218) !important;
-opacity: 1;
+  color: rgb(206, 212, 218) !important;
+  opacity: 1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-color: rgb(206, 212, 218) !important;
-opacity: 1;
+  color: rgb(206, 212, 218) !important;
+  opacity: 1;
 }
