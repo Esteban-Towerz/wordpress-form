@@ -24,6 +24,38 @@ body {
   color: rgb(73, 80, 87);
 }
 
+h1 {
+  font-weight: 300;
+  line-height: 3rem;
+  display: block;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-family: inherit;
+  color: rgb(52, 58, 64);
+}
+
+.lead {
+  line-height: 1.875rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  color: rgb(73, 80, 87);
+}
+
+.loan-amount {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: calc(2.875rem + 2px);
+  padding-left: .75rem;
+  font-size: 1rem;
+  padding: .6875rem 1.5rem;
+  line-height: 1.5;
+  color: rgb(73, 80, 87);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(206, 212, 218);
+}
+
 .wpcf7-form {
   font-family: 'Roboto', sans-serif;
   border-radius: 4px;
