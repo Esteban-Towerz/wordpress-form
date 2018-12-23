@@ -16,7 +16,7 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-/* .wpcf7-form {
+.wpcf7-form {
   font-family: 'Roboto', sans-serif;
   border-radius: 4px;
   border: 1px rgb(221, 221, 221) solid;
@@ -25,7 +25,7 @@ html {
   color: rgb(17, 17, 17);
   padding: 20px 26px;
   transition: all 100ms linear;
-} */
+}
 
 .container {
 	margin: auto;
